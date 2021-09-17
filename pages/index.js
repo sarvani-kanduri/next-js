@@ -38,7 +38,7 @@ const meetups= await  meetupsCollection.find().toArray();
 
   }))
         },
-        revalidate:10
+        revalidate:1
     }
 } 
 /* export async function getServerSideProps(context){
